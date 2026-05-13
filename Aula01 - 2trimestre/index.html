@@ -1,40 +1,40 @@
 <!DOCTYPE HTML>
 <html lang="pt-br">
 <head>
-<title>Formulário HTML</title>
-<meta charset="UTF-8">
-</head>
+    <title>Formulário HTML</title><!--Certo-->
+    <meta charset="UTF-8">
+</head><!--Certo-->
 <body>
     
-<h1>Cadastro de Usuário</h1>
-<form action="cadastro.php" method="POST">
-<label for="nome">Nome:</label>
-<input type="text" id="nome" name="nome">
-<br><br>
-<label for="email">E-mail: </label>
-<input type="email" id="email" name="email">
-<br><br>
-<label for="senha">Senha: </label>
-<input type="password" name="senha" name="senha">
-<br><br>
-<label for="idade">Idade: </label>
-<input type="number" id="idade" name="idade">
-<br><br>
-<label for="data">Data de nascimento: </label>
-<input type="date" id="nascimento" name="nascimento">
-<br><br>
-<p>Turno:</p>
-<input type="radio" name="turno" id="manha"> <label for="manha">Manhã</label>
-<input type="radio" name="turno" id="tarde"> <label for="tarde">Tarde</label>
-<input type="radio" name="turno" id="noite"> <label for="noite">Noite</label>
-<br><br>
-<p>Areas de interesse:</p>
-<input type="checkbox" name="area" id="programacao"> <label for="programacao">Programação</label>
-<input type="checkbox" name="area" id="design"> <label for="design">Design</label>
-<input type="checkbox" name="area" id="redes"> <label for="redes">Redes</label>
-<br><br>
-<input type="reset" value="Limpar">
-<input type="submit" value="Enviar">
-</form>
-</body>
+        <h1>Cadastro de Usuário</h1><!--Certo-->
+        <form action="cadastro.php" method="POST"><!--Certo-->
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><!--Certo-->
+            <br><br>
+            <label for="email">E-mail: </label>
+            <input type="email" id="email" name="email"><!--Certo-->
+            <br><br>
+            <label for="senha">Senha: </label>
+            <input type="password" id="senha" name="senha"><!--Certo-->
+            <br><br>
+            <label for="idade">Idade: </label>
+            <input type="number" id="idade" name="idade">
+            <br><br>
+            <label for="nascimento">Data de nascimento: </label><!--Errado-->
+            <input type="date" id="nascimento" name="nascimento"><!--Certo-->
+            <br><br>
+            <p>Turno:</p>
+            <input type="radio" name="turno" id="manha"> <label for="manha">Manhã</label>
+            <input type="radio" name="turno" id="tarde"> <label for="tarde">Tarde</label><!--Certo²-->
+            <input type="radio" name="turno" id="noite"> <label for="noite">Noite</label>
+            <br><br>
+            <p>Areas de interesse:</p>
+            <input type="checkbox" name="area" id="programacao"> <label for="programacao">Programação</label>
+            <input type="checkbox" name="area" id="design"> <label for="design">Design</label><!--Certo-->
+            <input type="checkbox" name="area" id="redes"> <label for="redes">Redes</label>
+            <br><br>
+            <input type="reset" value="Limpar"><!--Certo-->
+            <input type="submit" value="Enviar"><!--Certo-->
+        </form>
+    </body>
 </html>
