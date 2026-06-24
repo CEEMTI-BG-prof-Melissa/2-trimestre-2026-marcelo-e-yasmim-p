@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Formulário HTML</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <br>
+    <form action="index.html" method="post">
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" name="nome">
+        <br><br>
+        <label for="comentario">Comentário: </label>
+        <textarea id="comentario" name="comentario"></textarea>
+        <br><br>
+        <label for="nome">Escolha seu estado: </label>
+        <br><br>
+        <label for="estado-sd">Estados da região sudeste: </label>
+        <select id="estado-sd" name="estado-sd">
+            <option value="sao_paulo">São Paulo</option>
+            <option value="rio_de_janeiro">Rio de Janeiro</option>
+            <option value="minas_gerais">Minas Gerais</option>
+            <option value="espirito_santo">Espírito Santo</option>
+        </select>
+        <br><br>
+        <label for="estado">Estados da região sul:</label>
+        <select id="estado" name="estado">
+            <option value="parana">Paraná</option>
+            <option value="santa_catarina">Santa Catarina</option>
+            <option value="rio_grande_do_sul">Rio Grande do Sul</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Cadastrar">
+        <input type="reset" value="Limpar">
+    </form>
+    </body>
+</html>
